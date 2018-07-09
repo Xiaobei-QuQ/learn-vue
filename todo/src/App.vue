@@ -7,8 +7,8 @@
         {{item.label}}
       </li>
     </ul>
-    <p>child tells me : {{ childWords  }}</p>
-    <component-a msgfromfather="hello,child" v-on:child-tell-me-something="listenToMyBoy"></component-a>
+    <!--<p>child tells me : {{ childWords  }}</p>-->
+    <!--<component-a msgfromfather="hello,child" v-on:child-tell-me-something="listenToMyBoy"></component-a>-->
   </div>
 </template>
 
