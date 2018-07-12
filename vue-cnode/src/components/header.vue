@@ -9,10 +9,12 @@
         <span v-text="pageType"></span>
         <i class="num" v-if="messageCount > 0"> {{messageCount}}</i>
         <a @click="addArt">
-          <i v-if="needAdd" v-show="!messageCount || messageCount <= 0" class="iconfont add-icon" style="font-size:30px;line-height: 44px;right: 6px;top: -4px;">+</i>
+          <i v-if="needAdd" v-show="!messageCount || messageCount <= 0" class="iconfont add-icon" style="font-size:30px;line-height: 44px;right: 6px;top: -4px;cursor:pointer;
+">+</i>
         </a>
         <router-link :to="{'name':'list'}">
-        <i v-if="needRes" class="iconfont add-icon" style="font-size:20px;line-height: 44px;right: 6px;top: -4px;">&#xe609;</i></router-link>
+        <i v-if="needRes" class="iconfont add-icon" style="font-size:20px;line-height: 44px;right: 6px;top: -4px;cursor:pointer;
+">&#xe609;</i></router-link>
       </div>
     </header>
     <nv-alert :content="contents" :show="showA"></nv-alert>
