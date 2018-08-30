@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0cdae0d-baa1-4e16-bf32-ec59daf75010" name="Default" comment="增加wheel作品">
+    <list default="true" id="f0cdae0d-baa1-4e16-bf32-ec59daf75010" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-client/src/helpers/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-client/src/helpers/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-wheel/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue-wheel/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +20,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue-wheel/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -32,8 +29,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -74,8 +71,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="263" />
-    <option name="y" value="29" />
+    <option name="x" value="507" />
+    <option name="y" value="60" />
     <option name="width" value="1487" />
     <option name="height" value="1001" />
   </component>
@@ -138,7 +135,7 @@
       <workItem from="1531149516751" duration="49000" />
       <workItem from="1531149694790" duration="8000" />
       <workItem from="1535620257187" duration="706000" />
-      <workItem from="1535621561240" duration="329000" />
+      <workItem from="1535621561240" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="增加wheel作品">
       <created>1535621738919</created>
@@ -147,11 +144,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535621738919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除idea">
+      <created>1535621917927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535621917927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1092000" />
+    <option name="totallyTimeSpent" value="1283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,7 +167,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="263" y="29" width="1487" height="1001" extended-state="0" />
+    <frame x="507" y="60" width="1487" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3365718" />
@@ -200,7 +204,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加wheel作品" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加wheel作品" />
+    <MESSAGE value="删除idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除idea" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vue-wheel/.gitignore">
@@ -277,15 +282,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-wheel/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
