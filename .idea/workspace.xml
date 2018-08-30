@@ -92,9 +92,9 @@
       <path value="$PROJECT_DIR$/vue-wheel/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="701" />
-    <option name="y" value="42" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="528" />
+    <option name="y" value="26" />
     <option name="width" value="1487" />
     <option name="height" value="1036" />
   </component>
