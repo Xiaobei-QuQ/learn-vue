@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cdae0d-baa1-4e16-bf32-ec59daf75010" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-wheel/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-wheel/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue-wheel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="352">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -162,7 +160,7 @@
       <workItem from="1531149516751" duration="49000" />
       <workItem from="1531149694790" duration="8000" />
       <workItem from="1535620257187" duration="706000" />
-      <workItem from="1535621561240" duration="2662000" />
+      <workItem from="1535621561240" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="增加wheel作品">
       <created>1535621738919</created>
@@ -192,11 +190,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535622432208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成按钮基本样式">
+      <created>1535628637713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535628637713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3425000" />
+    <option name="totallyTimeSpent" value="3480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,18 +214,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="701" y="42" width="1487" height="1036" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3365718" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3365718" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="LuaJ" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31638417" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31638417" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -248,7 +252,8 @@
     <MESSAGE value="删除idea" />
     <MESSAGE value="配置.gitnore" />
     <MESSAGE value="配置.gitnore2" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置.gitnore2" />
+    <MESSAGE value="完成按钮基本样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成按钮基本样式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vue-wheel/.gitignore">
@@ -342,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-wheel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="352">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
