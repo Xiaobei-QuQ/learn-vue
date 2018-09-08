@@ -5,10 +5,10 @@
         </nv-head>
         <section class="page-body">
             <div class="label">
-                <input class="txt" type="text" placeholder="Access Token" v-model="token" maxlength="36">
+                <input class="txt" type="text" placeholder="由于服务器限制，请前往官网注册账号并使用Access Token" v-model="token" maxlength="36">
             </div>
             <div class="label">
-                <a class="button" @click="logon">登录</a>
+                <a class="button" @click="login">登录</a>
             </div>
         </section>
     </div>
@@ -17,7 +17,7 @@
 <script>
     import $ from 'jquery';
     import nvHead from '../components/header.vue';
-
+    import nvAlert from '../components/nvAlert'
     export default {
         data() {
             return {
@@ -25,7 +25,7 @@
             };
         },
         methods: {
-            logon() {
+            login() {
                 if (this.token === '') {
                     this.$alert('令牌格式错误,应为36位UUID字符串');
                     return false;
@@ -45,6 +45,7 @@
                             token: this.token
                         };
                         window.window.sessionStorage.user = JSON.stringify(user);
+                      // vuex以载荷形式分发
                         this.$store.dispatch('setUserInfo', user);
                         let redirect = decodeURIComponent(this.$route.query.redirect || '/');
                         this.$router.push({

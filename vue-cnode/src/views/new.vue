@@ -15,7 +15,7 @@
             <div class="line">
                 <input class="add-title" v-model="topic.title"
                         type="text" :class="{'err':err=='title'}"
-                        placeholder="标题，字数10字以上" max-length="100"/>
+                        placeholder="标题，字数5字以上" max-length="100"/>
             </div>
             <textarea v-model="topic.content" rows="35" class="add-content"
                 :class="{'err':err=='content'}"
@@ -55,7 +55,7 @@
                 let title = $.trim(this.topic.title);
                 let contents = $.trim(this.topic.content);
 
-                if (!title || title.length < 10) {
+                if (!title || title.length < 5) {
                     this.err = 'title';
                     return false;
                 }

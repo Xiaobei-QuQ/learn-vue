@@ -8,6 +8,10 @@ import store from './vuex/user.js'
 import filters from './filter/filters.js';
 import Alert from './libs/alert';
 import $ from 'jquery'
+//Vue.prototype添加属性$alert
+Vue.use(Alert)
+
+
 // 处理刷新的时候vuex被清空但是用户已经登录的情况
 if (window.sessionStorage.user) {
   store.dispatch('setUserInfo', JSON.parse(window.sessionStorage.user));
@@ -20,6 +24,8 @@ new Vue({
   el: '#app',
   router,
   store,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
 })
